@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/2837.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+    .container {
+padding: 20px;
+        margin: auto;
+        justify-content: center;
+        background-color: white;
+        width: 20%;
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            color: white;
+            justify-content: center;
+            margin: auto;
+            display: flex;
+
+            i {
+                margin-top: 5px;
+                float: left;
+            }
+        }
+
+        span {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+        .inpDiv{
+       input{
+           margin-top: 15px;
+           justify-content: center;
+           margin: auto;
+           display: flex;
+           padding: 5px;
+       }
+       i{
+           float: left;
+           background-color: rgb(197, 194, 194);
+           padding: 11px;
+       }
+       h6{
+           a{
+               text-decoration: none;
+           }
+       }
+        }
+    }
+}
